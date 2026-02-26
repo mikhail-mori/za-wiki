@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог — Директорат Жизнеобеспечения</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="logo-section">
+                <img src="emblem.png" alt="Герб Западного Архангельска" class="emblem" onerror="this.outerHTML='<div class=\'emblem-placeholder\'>Герб ЗА</div>'">
+                <div class="title-section">
+                    <h1 class="main-title">Западный Архангельск</h1>
+                    <span class="subtitle">Директорат Жизнеобеспечения</span>
+                </div>
+            </div>
+            <div class="header-meta">
+                <div>Оперативный период</div>
+                <div class="date">Информационный центр</div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="nav-container">
+                <a href="index.html" class="nav-item">Главная</a>
+                <a href="terms.html" class="nav-item">Терминология</a>
+                <a href="history.html" class="nav-item">История</a>
+                <a href="directorate.html" class="nav-item">Директорат</a>
+                <a href="geography.html" class="nav-item">География</a>
+                <a href="documents.html" class="nav-item">Документация</a>
+                <a href="blog.html" class="nav-item active">Блог</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="sidebar-header">Категории записей</div>
+                <div class="sidebar-content">
+                    <a href="#" class="sidebar-link active">Все записи</a>
+                    <a href="#" class="sidebar-link">Инфраструктура</a>
+                    <a href="#" class="sidebar-link">Безопасность</a>
+                    <a href="#" class="sidebar-link">Производство</a>
+                    <a href="#" class="sidebar-link">Объявления</a>
+                </div>
+            </div>
+            
+            <div class="sidebar-section">
+                <div class="sidebar-header">Архив</div>
+                <div class="sidebar-content" style="padding: 1rem;">
+                    <div style="font-size: 0.85rem; color: var(--text-muted);">
+                        <p>Январь 2027 <span style="color: var(--text-secondary);">(3)</span></p>
+                        <p style="margin-top: 0.5rem;">Декабрь 2026 <span style="color: var(--text-secondary);">(5)</span></p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <div class="content-area">
+            <div class="content-header">
+                <svg class="content-icon" viewBox="0 0 40 40" fill="none" stroke="#f0f0f0">
+                    <rect x="5" y="5" width="30" height="30" rx="2" stroke-width="1.5"/>
+                    <path d="M10 12 L30 12 M10 18 L25 18 M10 24 L28 24 M10 30 L20 30" stroke-width="1.5"/>
+                </svg>
+                <div>
+                    <h1 class="content-title">Информационный блог</h1>
+                    <div class="content-subtitle">Новости и объявления Директората</div>
+                </div>
+            </div>
+            
+            <div class="content-body">
+                <div class="warning-banner" style="margin-bottom: 2rem;">
+                    <span class="warning-icon">i</span>
+                    <span class="warning-text">Официальные публикации Координационного Центра. Доступны для всеобщего сведения.</span>
+                </div>
+
+                <!-- Blog Post 1 -->
+                <article class="blog-post">
+                    <div class="blog-post-header">
+                        <a href="#" class="blog-post-title">Восстановлено энергоснабжение северного сектора</a>
+                        <div class="blog-post-meta">
+                            <span>15 января 2027</span>
+                            <span>Министерство энергетики</span>
+                        </div>
+                    </div>
+                    <div class="blog-post-body">
+                        После двухнедельных ремонтных работ полностью восстановлено энергоснабжение северного сектора города. Причиной отключения стали повреждения на линии электропередач, вызванные погодными условиями. Все критические объекты переведены на штатный режим работы.
+                    </div>
+                    <div class="blog-post-footer">
+                        <span class="blog-tag">Инфраструктура</span>
+                        <a href="#" class="read-more">Читать далее →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-post">
+                    <div class="blog-post-header">
+                        <a href="#" class="blog-post-title">Усиление охраны восточной границы</a>
+                        <div class="blog-post-meta">
+                            <span>12 января 2027</span>
+                            <span>Министерство безопасности</span>
+                        </div>
+                    </div>
+                    <div class="blog-post-body">
+                        В связи с участившимися инцидентами на границе с Восточным Архангельском, принято решение об увеличении численности пограничного контингента. Вводится усиленный режим патрулирования периметра. Гражданам рекомендуется избегать приграничных зон без служебной необходимости.
+                    </div>
+                    <div class="blog-post-footer">
+                        <span class="blog-tag">Безопасность</span>
+                        <a href="#" class="read-more">Читать далее →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-post">
+                    <div class="blog-post-header">
+                        <a href="#" class="blog-post-title">ЦБК «Новик» достиг плановых показателей</a>
+                        <div class="blog-post-meta">
+                            <span>8 января 2027</span>
+                            <span>Министерство внутренней политики</span>
+                        </div>
+                    </div>
+                    <div class="blog-post-body">
+                        Целлюлозно-бумажный комбинат в Новике вышел на плановые показатели производства. Это позволяет обеспечить регион бумажной продукцией и создать резерв для торговли с соседними территориями. Отмечается высокая дисциплина трудовых коллективов.
+                    </div>
+                    <div class="blog-post-footer">
+                        <span class="blog-tag">Производство</span>
+                        <a href="#" class="read-more">Читать далее →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article class="blog-post">
+                    <div class="blog-post-header">
+                        <a href="#" class="blog-post-title">Образован Координационный Центр</a>
+                        <div class="blog-post-meta">
+                            <span>28 декабря 2026</span>
+                            <span>Верховный Координатор</span>
+                        </div>
+                    </div>
+                    <div class="blog-post-body">
+                        Объявляется о формировании Координационного Центра — высшего органа управления Западным Архангельском. В состав входят руководители критической инфраструктуры региона. Принята структура министерств и определены приоритеты деятельности на ближайший период.
+                    </div>
+                    <div class="blog-post-footer">
+                        <span class="blog-tag">Объявления</span>
+                        <a href="#" class="read-more">Читать далее →</a>
+                    </div>
+                </article>
+
+                <!-- Blog Post 5 -->
+                <article class="blog-post">
+                    <div class="blog-post-header">
+                        <a href="#" class="blog-post-title">Введён режим чрезвычайного положения</a>
+                        <div class="blog-post-meta">
+                            <span>20 декабря 2026</span>
+                            <span>Временная администрация</span>
+                        </div>
+                    </div>
+                    <div class="blog-post-body">
+                        В связи с глобальным коллапсом систем связи и управления, на территории Западного Архангельска вводится режим чрезвычайного положения. Все ресурсы направляются на обеспечение базовых потребностей населения: тепло, свет, продовольствие, медицинская помощь.
+                    </div>
+                    <div class="blog-post-footer">
+                        <span class="blog-tag">Объявления</span>
+                        <a href="#" class="read-more">Читать далее →</a>
+                    </div>
+                </article>
+
+                <!-- Pagination -->
+                <div style="display: flex; justify-content: center; gap: 0.5rem; margin-top: 2rem;">
+                    <span style="padding: 0.5rem 1rem; background: var(--accent-blue); color: var(--white); font-size: 0.85rem;">1</span>
+                    <a href="#" style="padding: 0.5rem 1rem; background: var(--accent-graphite); color: var(--text-secondary); text-decoration: none; font-size: 0.85rem;">2</a>
+                    <a href="#" style="padding: 0.5rem 1rem; background: var(--accent-graphite); color: var(--text-secondary); text-decoration: none; font-size: 0.85rem;">3</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                Директорат Жизнеобеспечения — Западный Архангельск. Все права защищены.
+            </div>
+            <div class="footer-links">
+                <a href="documents.html" class="footer-link">Нормативная база</a>
+                <a href="terms.html" class="footer-link">Терминология</a>
+                <a href="geography.html" class="footer-link">Карта региона</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
