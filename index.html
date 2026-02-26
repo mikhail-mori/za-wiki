@@ -46,17 +46,11 @@
                             </clipPath>
                         </defs>
                         <g clip-path="url(#flagClip)">
+                            <!-- Диагональное разделение флага -->
                             <polygon points="0,0 300,0 0,200" fill="#1e3a5f"/>
                             <polygon points="300,0 300,200 0,200" fill="#2a2d32"/>
-                            <g transform="translate(150, 100)" fill="#f0f0f0" opacity="0.95">
-                                <path d="M0 -60 L0 60 M0 -45 L-20 -25 Q-35 -10 -20 15 L0 0 L20 15 Q35 -10 20 -25 L0 -45" stroke="#f0f0f0" stroke-width="5" fill="none"/>
-                                <circle cx="0" cy="0" r="25" stroke="#f0f0f0" stroke-width="3" fill="none"/>
-                                <g stroke="#f0f0f0" stroke-width="3" fill="none">
-                                    <path d="M-35 35 L0 -25 L35 35"/>
-                                    <path d="M-35 -35 L0 25 L35 -35"/>
-                                </g>
-                                <ellipse cx="0" cy="-55" rx="10" ry="6" fill="#f0f0f0"/>
-                            </g>
+                            <!-- Герб-фото -->
+                            <image href="emblem.png" x="80" y="30" width="140" height="140" preserveAspectRatio="xMidYMid meet"/>
                         </g>
                     </svg>
                     <div class="flag-caption">Флаг Западного Архангельска</div>
