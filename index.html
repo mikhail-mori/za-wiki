@@ -10,23 +10,7 @@
     <header class="header">
         <div class="header-top">
             <div class="logo-section">
-                <svg class="emblem" viewBox="0 0 100 100">
-                    <defs>
-                        <filter id="wear">
-                            <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="5" result="noise"/>
-                            <feDisplacementMap in="SourceGraphic" in2="noise" scale="1" xChannelSelector="R" yChannelSelector="G"/>
-                        </filter>
-                    </defs>
-                    <g filter="url(#wear)" fill="#f0f0f0" opacity="0.95">
-                        <path d="M50 5 L50 85 M50 15 L35 30 Q25 40 35 55 L50 45 L65 55 Q75 40 65 30 L50 15" stroke="#f0f0f0" stroke-width="4" fill="none"/>
-                        <circle cx="50" cy="50" r="20" stroke="#f0f0f0" stroke-width="3" fill="none"/>
-                        <g stroke="#f0f0f0" stroke-width="2.5" fill="none">
-                            <path d="M25 70 L50 30 L75 70"/>
-                            <path d="M25 30 L50 70 L75 30"/>
-                        </g>
-                        <ellipse cx="50" cy="8" rx="8" ry="5" fill="#f0f0f0"/>
-                    </g>
-                </svg>
+                <img src="emblem.png" alt="Герб Западного Архангельска" class="emblem" onerror="this.outerHTML='<div class=\'emblem-placeholder\'>Герб ЗА</div>'">
                 <div class="title-section">
                     <h1 class="main-title">Западный Архангельск</h1>
                     <span class="subtitle">Директорат Жизнеобеспечения</span>
@@ -45,6 +29,7 @@
                 <a href="directorate.html" class="nav-item">Директорат</a>
                 <a href="geography.html" class="nav-item">География</a>
                 <a href="documents.html" class="nav-item">Документация</a>
+                <a href="blog.html" class="nav-item">Блог</a>
             </div>
         </nav>
     </header>
@@ -133,7 +118,7 @@
                 <section id="mission" class="section">
                     <h2 class="section-title">Миссия Директората</h2>
                     <p style="color: var(--text-secondary); margin-bottom: 1rem;">
-                        Директорат Жизнеобеспечения — временный орган управления, сформированный после глобального коллапса государственных институтов 1 апреля 2032 года. Наша цель — физическое выживание населения и восстановление критической инфраструктуры.
+                        Директорат Жизнеобеспечения — временный орган управления, сформированный после глобального коллапса государственных институтов в конце 2026 года. Наша цель — физическое выживание населения и восстановление критической инфраструктуры.
                     </p>
                     <div class="blockquote">
                         Компетентность важнее популярности. Решения принимаются на основе данных, расчётов и эффективности. Каждый человек — Биологическая Единица — является ценным активом для восстановления цивилизации.
@@ -192,7 +177,7 @@
                             </tr>
                             <tr>
                                 <td>Дата формирования</td>
-                                <td>1 апреля 2032 года</td>
+                                <td>Декабрь 2026 года</td>
                                 <td><span class="tag">Архив</span></td>
                             </tr>
                             <tr>
